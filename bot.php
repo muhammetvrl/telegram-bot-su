@@ -1,7 +1,7 @@
 <?php
 
-$token="381827747:AAFj2H684oSJCIIawvCF_UCvs8ZWgl8yFXs";
-$myid="85005635";
+$token="mytoken";
+$myid="mychatid";
 $api = "https://api.telegram.org/bot".$token; //api bağlantısı
 
 $up = file_get_contents('php://input');
